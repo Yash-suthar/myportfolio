@@ -1,59 +1,26 @@
 import React from 'react'
-
+import ProfileImage from './ProfileImage'
+import '../customeCSS/About.css'
+import image from '../images/id-card.png'
 const About = () => {
   return (
     <>
-      <div className=' bg-white  p-5 shadow'>
-       <div className=' d-flex justify-content-center'>
-        <h1 className='bg-white d-inline-block px-3 rounded-pill'>skills</h1>
+      <div className='about pt-2'>
 
-       </div>
-        <p>
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
-          dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
-          Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit
-          sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.
-        </p>
-        <p>
-          Non etiam tempor id arcu magna ante eget. Nec per posuere cubilia cras porttitor condimentum
-          orci suscipit. Leo maecenas in tristique, himenaeos elementum placerat. Taciti rutrum nostra,
-          eget cursus velit ultricies. Quam molestie tellus himenaeos cubilia congue vivamus ultricies.
-          Interdum praesent ut penatibus fames eros ad consectetur sed.
-        </p>
-        <p>
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
-          dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
-          Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit
-          sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.
-        </p>
-        <p>
-          Non etiam tempor id arcu magna ante eget. Nec per posuere cubilia cras porttitor condimentum
-          orci suscipit. Leo maecenas in tristique, himenaeos elementum placerat. Taciti rutrum nostra,
-          eget cursus velit ultricies. Quam molestie tellus himenaeos cubilia congue vivamus ultricies.
-          Interdum praesent ut penatibus fames eros ad consectetur sed.
-        </p><p>
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
-          dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
-          Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit
-          sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.
-        </p>
-        <p>
-          Non etiam tempor id arcu magna ante eget. Nec per posuere cubilia cras porttitor condimentum
-          orci suscipit. Leo maecenas in tristique, himenaeos elementum placerat. Taciti rutrum nostra,
-          eget cursus velit ultricies. Quam molestie tellus himenaeos cubilia congue vivamus ultricies.
-          Interdum praesent ut penatibus fames eros ad consectetur sed.
-        </p><p>
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
-          dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
-          Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit
-          sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.
-        </p>
-        <p>
-          Non etiam tempor id arcu magna ante eget. Nec per posuere cubilia cras porttitor condimentum
-          orci suscipit. Leo maecenas in tristique, himenaeos elementum placerat. Taciti rutrum nostra,
-          eget cursus velit ultricies. Quam molestie tellus himenaeos cubilia congue vivamus ultricies.
-          Interdum praesent ut penatibus fames eros ad consectetur sed.
-        </p>
+        <div className='text-center d-flex  justify-content-center'>
+         
+          <h3 className='bg-white p-3 rounded-pill shadow-lg'>
+          <img src={image} className='aboutimage'/>About</h3>
+        </div>
+
+        <div className='bg-white container rounded-3 shadow-lg'>
+          <div className=' row'>
+            <div className='col-3 '>
+              <ProfileImage />
+            </div>
+          </div>
+
+        </div>
       </div>
     </>
   )

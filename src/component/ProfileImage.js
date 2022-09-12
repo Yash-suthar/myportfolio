@@ -1,5 +1,6 @@
 import Photo from '../images/profileImage2.jpg'
 import '../customeCSS/profileImage.css'
+
 function ProfileImage() {
    return (
       <>
